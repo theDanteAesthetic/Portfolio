@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "kenyan coffee rg it";
+    src: url("fonts/kenyan_coffee/kenyan coffee rg it.otf");
+}
+
+@font-face {
+    font-family: "kenyan coffee rg";
+    src: url("fonts/kenyan_coffee/kenyan coffee rg.otf");
+}
+
+@font-face {
+    font-family: "blue highway rg";
+    src: url("fonts/blue_highway/Blue Highway Rg.otf");
+}
+
+@font-face {
+    font-family: "blue highway bd";
+    src: url("fonts/blue_highway/Blue Highway Bd.otf");
+}
+body {
+    background-color: hsla(42, 42%, 85%, 1);
+    display: grid;
+    grid-template-rows: 20% 40% 40% 10%;
+}
+
+h1 {
+    font-family: "kenyan coffee rg", sans-serif;
+    font-size: 4rem;
+    color: hsla(40, 0%, 0%, 1);
+}
+
+h2 {
+    font-family: "kenyan coffee rg", sans-serif;
+    font-size: 2.8rem;
+
+    color: hsla(40, 0%, 0%, 1);
+
+    margin: 1rem;
+    width: fit-content;
+    height: min-content;
+}
+
+h3 {
+    font-family: "kenyan coffee rg it", sans-serif;
+    font-size: 1.8rem;
+
+    color: hsla(40, 0%, 0%, 1);
+
+    margin: 1rem;
+    width: fit-content;
+    height: min-content;
+}
+
+p {
+    font-family: "blue highway rg", sans-serif;
+    font-size: 1.75rem;
+    em {
+        font-family: "blue highway bd", sans-serif;
+    }
+}
+.directoryItem {
+    font-family: "kenyan coffee rg it", sans-serif;
+    font-size: 2.5rem;
+
+    color: hsla(40, 0%, 20%, 1);
+
+    border-bottom: 0.05em dashed;
+    padding-left: 0.1rem;
+    padding-right: 0.5rem;
+    margin: 1rem;
+    width: fit-content;
+    height: min-content;
+}
+
+.directoryItem:hover {
+    color: hsla(10, 0%, 100%, 1);
+}
+
+.titleBar {
+    display: flex;
+    padding: 1rem;
+    background-color: hsla(30, 70%, 65%, 1);
+    height: fit-content;
+}
+
+.directory {
+    display: flex;
+    margin-left: 3rem;
+}
+
+.aboutText {
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+    margin-left: 3rem;
+}
+
+.bottomBar {
+    display: flex;
+    padding: 1rem;
+    background-color: hsla(30, 70%, 65%, 1);
+}
+
+.contacts {
+    display: flex;
+    margin: auto 0 auto 0;
+    margin-left: 2rem;
+    color: hsla(40, 0%, 20%, 1);
+
+
+}
+
+#home {
+    grid-row: 1;
+}
+
+#aboutMe {
+    display: grid;
+    grid-row: 2;
+    height: fit-content;
+    margin-top: auto;
+    grid-template-columns: 40% 60%;
+}
+
+#myWork {  
+    grid-row: 3;
+    height: fit-content;
+    margin-top: auto;
+}
+
+#contactMe {
+    grid-row: 4;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#danteSoil {
+    width: 80%;
+    margin: auto;
+    border: 0;
+    border-radius: 10px;
+}
