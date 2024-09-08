@@ -31,7 +31,7 @@ h1 {
 
 h2 {
     font-family: "kenyan coffee rg", sans-serif;
-    font-size: 2.8rem;
+    font-size: 3.75rem;
 
     color: hsla(40, 0%, 0%, 1);
 
@@ -41,6 +41,17 @@ h2 {
 }
 
 h3 {
+    font-family: "kenyan coffee rg", sans-serif;
+    font-size: 2.8rem;
+
+    color: hsla(40, 0%, 0%, 1);
+
+    margin: 1rem;
+    width: fit-content;
+    height: min-content;
+}
+
+h4 {
     font-family: "kenyan coffee rg it", sans-serif;
     font-size: 1.8rem;
 
@@ -95,6 +106,16 @@ p {
     margin-left: 3rem;
 }
 
+.myWorkHeader {
+    background-color: hsla(30, 70%, 65%, 1);
+    padding: 3rem 0 3rem 0;
+    min-width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 8rem;
+
+}
+
 .bottomBar {
     display: flex;
     padding: 1rem;
@@ -118,7 +139,8 @@ p {
     display: grid;
     grid-row: 2;
     height: fit-content;
-    margin-top: auto;
+    margin: auto;
+    margin-top: 0rem;
     grid-template-columns: 40% 60%;
 }
 
@@ -138,6 +160,12 @@ p {
 #danteSoil {
     width: 80%;
     margin: auto;
+    margin-top: 0;
     border: 0;
     border-radius: 10px;
+}
+
+#linearVis {
+    width: 40%;
+
 }
